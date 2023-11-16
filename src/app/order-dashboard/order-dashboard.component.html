@@ -1,0 +1,8 @@
+<div>
+    <h2>Order Dashboard</h2>
+    <button (click)="startWorkday()">Start Workday</button>
+    <button (click)="endWorkday()">End Workday</button>
+    <ul>
+      <li *ngFor="let order of orders">{{ order }}</li>
+    </ul>
+  </div>
